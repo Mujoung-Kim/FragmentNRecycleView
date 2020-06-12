@@ -16,6 +16,14 @@ buildscript {
     }
 }
 
+ext {
+    lifecycle_version = '2.3.0-alpha03'
+    retrofit_version = '2.6.2'
+    room_version = '2.2.5'
+    view_model_version = '2.2.0'
+
+}
+
 allprojects {
     repositories {
         google()
